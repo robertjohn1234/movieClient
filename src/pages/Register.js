@@ -32,7 +32,7 @@ export default function Register() {
         .then(data => {
             console.log(data);
 
-            if (data.message === 'Registered Successfully') {
+            if (data.message === 'Registered SUccessfully') {
                 setEmail('');
                 setPassword('');
                 setConfirmPassword('');
